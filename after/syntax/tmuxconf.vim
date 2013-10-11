@@ -1,5 +1,5 @@
 " ==================================================
-" tmuxconf.vim
+" after/syntax/tmuxconf.vim
 "
 " Author: Hiromasa IWAYAMA
 " ==================================================
@@ -36,4 +36,6 @@ hi link tmuxType    Type
 hi link tmuxString  String
 hi link tmuxLiteral Constant
 hi link tmuxOption Tag
+
 let b:current_syntax = "tmuxconf"
+
